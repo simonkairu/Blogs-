@@ -1,0 +1,26 @@
+{% macro displayBlog(posts) %}
+{% for post in posts %}
+<div class="col-md-4">
+    <div class="panel">
+        <div class="panel-header bg-info">
+            <h2>{{post.title}}</h2>
+        </div>
+        <div class="panel-body">
+            <h3>{{post.post}}</h3>
+            <p>Posted by: <span><b>{{ post.user }}</b></span></a> on <i>{{post.date_posted.strftime('%B %d, %Y')}}</i></p>
+            <p>{{post.comments.count()}} Comments</p>
+        </div>
+        <div class="panel-footer">
+            <a href="">Add comment</a>
+        </div>
+    </div>
+</div>
+{% else %}
+<div class="row">
+    <div class="col-md-12">
+        <h1>There are no posts at the moment</h1>
+    </div>
+</div>
+</div>
+{% endfor %}
+{% endmacro %}
