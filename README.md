@@ -20,3 +20,30 @@ This is a flask application that allows users to sign in into the site and creat
 ## Requirements
 
 This program requires python3.+ installed, so as to run. A guide on how to install python on various platforms can be found [here](https://www.python.org/)
+
+## Setup/Installation
+
+To get the code..
+
+1. Cloning the repository:
+  bash
+  https://github.com/simonkairu/Blogs-.git
+  
+2. Move to the folder and install requirements
+  bash
+  cd Blogs
+  pip install -r requirements.txt
+  
+3. Exporting Configurations
+  bash
+  export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@localhost/{database name}
+  
+4. Running the application
+  bash
+  python3.8 manage.py server
+  
+5. Testing the application
+  bash
+  python3.8 manage.py test
+  
+Open the application on your browser `127.0.0.1:5000`.
