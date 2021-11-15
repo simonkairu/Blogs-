@@ -53,3 +53,9 @@ Open the application on your browser `127.0.0.1:5000`.
 No known Bugs <br>
 Incase of any bugs contact;
  [simon.mureithi@student.moringaschool.com](simon.mureithi@student.moringaschool.com)
+
+ ## Support and Further contact details
+
+For queries you can contact me through
+
+simon.mureithi@student.moringaschool.com
