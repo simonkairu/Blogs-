@@ -59,3 +59,7 @@ Incase of any bugs contact;
 For queries you can contact me through
 
 simon.mureithi@student.moringaschool.com
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
